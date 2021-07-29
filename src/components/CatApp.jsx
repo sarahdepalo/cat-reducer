@@ -8,9 +8,10 @@ import cat from '../imgs/cat.png';
 const CatApp = (props) => (
     <div>
         <h1>Cat Simulator</h1>
-        <img src={cat} alt="cute cat" />
-        <Output />
         <SetName/>
+        <img src={cat} alt="cute cat" className="cat"/>
+        <Output />
+
         <div className="iconContainer">
             <SetActivity/>
         </div>
